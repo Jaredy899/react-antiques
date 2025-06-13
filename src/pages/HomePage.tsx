@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import AddressLink from "~/components/AddressLink";
 import OptimizedImage from "~/components/OptimizedImage";
 import ImageGallery from "~/components/ImageGallery";
 
