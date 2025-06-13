@@ -29,35 +29,6 @@ export default function HomePage() {
         />
       </section>
 
-    {/* New Location Announcement */}
-      <section className="mb-16 rounded-lg bg-gray-100 dark:bg-gray-800 p-8 border border-gray-200 dark:border-gray-700 transition-colors duration-200">
-        <div className="grid items-center gap-8 md:grid-cols-2">
-          <div>
-            <h2 className="mb-4 text-3xl font-bold text-gray-900 dark:text-white font-serif">
-              Our New Home!
-            </h2>
-            <p className="mb-6 text-lg text-gray-700 dark:text-gray-200">
-              <span className="font-semibold">We are now exclusively located at:</span><br />
-              <AddressLink address="227 W Main St, Abingdon, VA 24210">
-                227 W Main St, Abingdon, VA 24210
-              </AddressLink>
-            </p>
-            <p className="text-gray-700 dark:text-gray-200">
-              We have successfully completed our move to our new location! Come visit us at our beautiful new space in the heart of downtown Abingdon.
-            </p>
-          </div>
-          <div className="rounded-lg bg-white dark:bg-gray-700 p-2 shadow-md">
-            <OptimizedImage 
-              src="https://xfcpn2nyfb.ufs.sh/f/LKapUqCN3UFsWShw4AnAoZYFIrpQJyB8wcDh0eKmCV6iTnMg" 
-              alt="Our new location at 227 W Main St" 
-              className="rounded object-cover"
-              width={500}
-              height={300}
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Social Media Section */}
       <section className="mb-16 rounded-lg bg-gray-100 dark:bg-gray-800 p-8 text-center transition-colors duration-200">
         <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-white">Stay Connected!</h2>
