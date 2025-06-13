@@ -44,15 +44,17 @@ export default function InformationPage() {
               <div>
                 <h3 className="font-medium text-gray-900 dark:text-white">Address:</h3>
                 <AddressLink address="227 West Main Street, Abingdon, VA 24210">
-                  <p>227 West Main Street</p>
-                  <p>Abingdon, VA 24210</p>
+                  <div className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors cursor-pointer">
+                    <p>227 West Main Street</p>
+                    <p>Abingdon, VA 24210</p>
+                  </div>
                 </AddressLink>
               </div>
               <div>
                 <h3 className="font-medium text-gray-900 dark:text-white">Phone:</h3>
                 <a 
                   href="tel:276-477-1515" 
-                  className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary hover:underline transition-colors"
+                  className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors"
                 >
                   276-477-1515
                 </a>
@@ -61,14 +63,14 @@ export default function InformationPage() {
                 <h3 className="font-medium text-gray-900 dark:text-white">Email:</h3>
                 <a 
                   href="mailto:abingdonantiquesandmore@gmail.com" 
-                  className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary hover:underline transition-colors"
+                  className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors"
                 >
                   abingdonantiquesandmore@gmail.com
                 </a>
               </div>
               <div className="mt-6">
                 <h3 className="font-medium text-gray-900 dark:text-white mb-2">Directions:</h3>
-                <p className="text-gray-600 dark:text-gray-300">We are located in the heart of historic Abingdon, Virginia, on West Main Street, across the street from <a href="https://abingdoncommons.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary hover:underline transition-colors">Abingdon Commons</a>.</p>
+                <p className="text-gray-600 dark:text-gray-300">We are located in the heart of historic Abingdon, Virginia, on West Main Street, across the street from <a href="https://abingdoncommons.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors">Abingdon Commons</a>.</p>
               </div>
               <div className="mt-6">
                 <h3 className="font-medium text-gray-900 dark:text-white mb-2">Parking:</h3>
