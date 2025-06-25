@@ -25,7 +25,7 @@ const Footer = () => {
               <div>
                 <p className="font-medium text-gray-900 dark:text-white">Address:</p>
                 <div className="text-gray-700 dark:text-gray-300">
-                  <AddressLink address="227 West Main Street, Abingdon, VA 24210">
+                  <AddressLink>
                     <span className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors cursor-pointer">
                       227 West Main Street, Abingdon, VA 24210
                     </span>

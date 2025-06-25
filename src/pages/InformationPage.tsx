@@ -1,3 +1,5 @@
+'use client';
+
 import AddressLink from '~/components/AddressLink';
 
 export default function InformationPage() {
@@ -43,34 +45,26 @@ export default function InformationPage() {
             <div className="space-y-4">
               <div>
                 <h3 className="font-medium text-gray-900 dark:text-white">Address:</h3>
-                <AddressLink address="227 West Main Street, Abingdon, VA 24210">
-                  <div className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors cursor-pointer">
-                    <p>227 West Main Street</p>
-                    <p>Abingdon, VA 24210</p>
-                  </div>
+                <AddressLink>
+                  <p>227 West Main Street</p>
+                  <p>Abingdon, VA 24210</p>
                 </AddressLink>
               </div>
               <div>
                 <h3 className="font-medium text-gray-900 dark:text-white">Phone:</h3>
-                <a 
-                  href="tel:276-477-1515" 
-                  className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors"
-                >
+                <a href="tel:276-477-1515">
                   276-477-1515
                 </a>
               </div>
               <div>
                 <h3 className="font-medium text-gray-900 dark:text-white">Email:</h3>
-                <a 
-                  href="mailto:abingdonantiquesandmore@gmail.com" 
-                  className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors"
-                >
+                <a href="mailto:abingdonantiquesandmore@gmail.com">
                   abingdonantiquesandmore@gmail.com
                 </a>
               </div>
               <div className="mt-6">
                 <h3 className="font-medium text-gray-900 dark:text-white mb-2">Directions:</h3>
-                <p className="text-gray-600 dark:text-gray-300">We are located in the heart of historic Abingdon, Virginia, on West Main Street, across the street from <a href="https://abingdoncommons.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline transition-colors">Abingdon Commons</a>.</p>
+                <p className="text-gray-600 dark:text-gray-300">We are located in the heart of historic Abingdon, Virginia, on West Main Street, across the street from <a href="https://abingdoncommons.com/" target="_blank" rel="noopener noreferrer">Abingdon Commons</a>.</p>
               </div>
               <div className="mt-6">
                 <h3 className="font-medium text-gray-900 dark:text-white mb-2">Parking:</h3>
@@ -98,8 +92,8 @@ export default function InformationPage() {
           </div>
         </div>
 
-        {/* FAQ Section */}
-        <div className="mt-12 max-w-6xl mx-auto">
+       {/* FAQ Section */}
+       <div className="mt-12 max-w-6xl mx-auto">
           <div className="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg transition-colors duration-200">
             <h2 className="text-2xl font-serif font-bold mb-6 text-gray-900 dark:text-white">Frequently Asked Questions</h2>
             <div className="space-y-6">
